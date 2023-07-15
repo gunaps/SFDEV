@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_of_Birth_to_be_lesser_than_today</fullName>
+    <active>true</active>
+    <errorConditionFormula>Date_of_Birth__c  &gt;=  TODAY()</errorConditionFormula>
+    <errorMessage>Date of Birth should always be lesser than today.</errorMessage>
+</ValidationRule>

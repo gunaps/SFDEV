@@ -1,0 +1,14 @@
+<apex:page standardController="Job_Position__c">
+    <apex:pageBlock title="Hello {!$User.FirstName} {!$User.LastName}!">
+    	{!Job_Position__c.name} position and a list of job applications that is specified by a query string parameter.
+    </apex:pageBlock>
+    <apex:pageBlock title="Job Applications">
+    <apex:datatable value="{!Job_Position__c.Job_Applications1__r}"
+                    var="jobapp" cellpadding="4" border="1">
+    <apex:column >
+        <apex:facet name="header">Name</apex:facet>
+        {!jobapp.name}
+    </apex:column>
+    </apex:datatable>    
+   </apex:pageBlock>     
+</apex:page>

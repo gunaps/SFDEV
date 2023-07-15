@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>AutoResponse</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <booleanFilter>1 AND 2</booleanFilter>
+            <criteriaItems>
+                <field>Lead.Country</field>
+                <operation>equals</operation>
+                <value>United Kingdom</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.City</field>
+                <operation>equals</operation>
+                <value>London</value>
+            </criteriaItems>
+            <senderEmail>training.e2022@gmail.com</senderEmail>
+            <senderName>ABC</senderName>
+            <template>unfiled$public/Lead_Welcome_Email</template>
+        </ruleEntry>
+    </autoResponseRule>
+    <autoResponseRule>
+        <fullName>Lead auto</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.City</field>
+                <operation>notEqual</operation>
+                <value>New Delhi</value>
+            </criteriaItems>
+            <senderEmail>gunasekar.ps@gmail.com</senderEmail>
+            <senderName>test</senderName>
+            <template>unfiled$public/Lead_Welcome_Email</template>
+        </ruleEntry>
+    </autoResponseRule>
+    <autoResponseRule>
+        <fullName>New Lead Created</fullName>
+        <active>false</active>
+    </autoResponseRule>
+    <autoResponseRule>
+        <fullName>Send Welcome Email</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <booleanFilter>1 AND 2</booleanFilter>
+            <criteriaItems>
+                <field>Lead.City</field>
+                <operation>equals</operation>
+                <value>Boston</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.Country</field>
+                <operation>equals</operation>
+                <value>USA</value>
+            </criteriaItems>
+            <senderEmail>gunasekar.ps@gmail.com</senderEmail>
+            <senderName>BMI</senderName>
+            <template>unfiled$public/Lead_Welcome_Email</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Country</field>
+                <operation>equals</operation>
+                <value>USA</value>
+            </criteriaItems>
+            <senderEmail>gunasekar.ps@gmail.com</senderEmail>
+            <senderName>ABC</senderName>
+            <template>unfiled$public/Lead_Welcome_Email</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

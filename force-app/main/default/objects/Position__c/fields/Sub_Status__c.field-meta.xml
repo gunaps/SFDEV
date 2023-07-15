@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub-Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not started</fullName>
+                <default>false</default>
+                <label>Not started</label>
+            </value>
+            <value>
+                <fullName>Reviewing the resumes</fullName>
+                <default>false</default>
+                <label>Reviewing the resumes</label>
+            </value>
+            <value>
+                <fullName>Scheduled the interviews</fullName>
+                <default>false</default>
+                <label>Scheduled the interviews</label>
+            </value>
+            <value>
+                <fullName>Candidates selected</fullName>
+                <default>false</default>
+                <label>Candidates selected</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

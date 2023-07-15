@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Queue 8</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>Edureka_May_2022</publicGroup>
+        </publicGroups>
+        <roles>
+            <role>EasternSalesTeam</role>
+        </roles>
+        <users>
+            <user>markben@gmail.com</user>
+            <user>parkhar@gmail.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Customer</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Student_Master__c</sobjectType>
+    </queueSobject>
+</Queue>

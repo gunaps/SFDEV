@@ -1,0 +1,9 @@
+<apex:page standardController="Position__c" recordSetVar="positions" sidebar="false">
+    <apex:pageblock >
+    	<apex:pageBlockTable value="{!positions}" var="p">
+            <apex:column value="{!p.name}"/>
+        
+        </apex:pageBlockTable>
+    
+    </apex:pageblock>
+</apex:page>

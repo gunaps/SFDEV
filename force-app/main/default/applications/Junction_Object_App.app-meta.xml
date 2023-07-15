@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>bt_4</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Junction Object App</label>
+    <navType>Standard</navType>
+    <tabs>Object_A__c</tabs>
+    <tabs>Object_B__c</tabs>
+    <tabs>AccountsCustom</tabs>
+    <tabs>JobPositionCustomVF</tabs>
+    <tabs>Job_Position__c</tabs>
+    <tabs>Position_Custom_VF</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Junction_Object_App_UtilityBar2</utilityBar>
+</CustomApplication>

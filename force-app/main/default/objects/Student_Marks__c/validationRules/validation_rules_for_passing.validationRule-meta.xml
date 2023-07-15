@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>validation_rules_for_passing</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (Marks__c &lt; 40,  Student_Passed__c = true)</errorConditionFormula>
+    <errorMessage>Student Failed, you should not mark the student as passed. To obtain the pass marks student should be attaining 40+ marks.</errorMessage>
+</ValidationRule>

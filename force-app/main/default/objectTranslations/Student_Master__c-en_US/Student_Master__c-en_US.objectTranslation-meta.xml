@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Student Master</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Student Masters</value>
+    </caseValues>
+    <layouts>
+        <layout>Principal Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Student Basic Info.</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Professor Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Student Basic Info.</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Student Master Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>New Implementation</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>Student_Marks</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Super_Account</name>
+    </quickActions>
+    <recordTypes>
+        <label></label>
+        <name>Counsellor</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Principal</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Professor</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Student</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Age_Less_than_120_years</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>DOB</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Email_is_changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>New_VR</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>VR_for_New_York</name>
+    </validationRules>
+    <workflowTasks>
+        <description></description>
+        <name>New_Project</name>
+        <subject></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description></description>
+        <name>Please_enroll_for_voting</name>
+        <subject></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <name>Please_enroll_for_voting_1</name>
+        <subject></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description></description>
+        <name>Rejected</name>
+        <subject></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description></description>
+        <name>Student_master_request_is_recalled</name>
+        <subject></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description></description>
+        <name>Student_master_request_is_recalled1</name>
+        <subject></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description></description>
+        <name>Voting_form_to_be_filled</name>
+        <subject></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description></description>
+        <name>send_the_product_catelog</name>
+        <subject></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description></description>
+        <name>test</name>
+        <subject></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

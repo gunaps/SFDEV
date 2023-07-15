@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Student Marks</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Student Marks</value>
+    </caseValues>
+    <layouts>
+        <layout>Student Marks Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Check_the_start_day</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Validate_Marks</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>validation_rules_for_passing</name>
+    </validationRules>
+</CustomObjectTranslation>
