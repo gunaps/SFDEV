@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_is_changed</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (ISCHANGED( Email__c ), Address__c = &apos;California&apos;)</errorConditionFormula>
+    <errorMessage>Should not be changing email address when the address is California.</errorMessage>
+</ValidationRule>

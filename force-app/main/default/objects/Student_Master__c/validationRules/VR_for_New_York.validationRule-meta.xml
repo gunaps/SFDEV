@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_for_New_York</fullName>
+    <active>true</active>
+    <description>VR for New York customers</description>
+    <errorConditionFormula>AND (Address__c = &apos;New York&apos;,
+OR(Email__c = null,
+Email__c = &apos;test@gmail.com&apos;
+)
+)</errorConditionFormula>
+    <errorMessage>When the Address is New York, you need to enter the email address.</errorMessage>
+</ValidationRule>

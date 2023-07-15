@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Status_of_Approval__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub-Status of Approval</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status_of_Approval__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Test A</fullName>
+                <default>false</default>
+                <label>Test A</label>
+            </value>
+            <value>
+                <fullName>Test B</fullName>
+                <default>false</default>
+                <label>Test B</label>
+            </value>
+            <value>
+                <fullName>Test C</fullName>
+                <default>false</default>
+                <label>Test C</label>
+            </value>
+            <value>
+                <fullName>Test D</fullName>
+                <default>false</default>
+                <label>Test D</label>
+            </value>
+            <value>
+                <fullName>Test E</fullName>
+                <default>false</default>
+                <label>Test E</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Submitted</controllingFieldValue>
+            <controllingFieldValue>test 4</controllingFieldValue>
+            <valueName>Test A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submitted</controllingFieldValue>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Test B</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submitted</controllingFieldValue>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <controllingFieldValue>test 4</controllingFieldValue>
+            <valueName>Test C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Test D</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Approved</controllingFieldValue>
+            <controllingFieldValue>test 4</controllingFieldValue>
+            <valueName>Test E</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

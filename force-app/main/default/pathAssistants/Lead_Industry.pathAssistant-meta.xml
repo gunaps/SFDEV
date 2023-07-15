@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <entityName>Lead</entityName>
+    <fieldName>Industry</fieldName>
+    <masterLabel>Lead Industry</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Status</fieldNames>
+        <picklistValueName>Agriculture</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>LeadSource</fieldNames>
+        <picklistValueName>Food &amp; Beverage</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

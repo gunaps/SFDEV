@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <quickActions>
+        <label></label>
+        <name>Create_Special_Case</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>New_Contact_1</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>New_Flow</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Task_Log_a_Call</name>
+    </quickActions>
+</CustomObjectTranslation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <email>training.e2022@gmail.com</email>
+    <name>Queue 24-03</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>PG_23032023</publicGroup>
+        </publicGroups>
+        <users>
+            <user>parkhar@gmail.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Project__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Student_Master__c</sobjectType>
+    </queueSobject>
+</Queue>

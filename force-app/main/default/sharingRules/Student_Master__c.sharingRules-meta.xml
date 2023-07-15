@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Add_PG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Add PG</label>
+        <sharedTo>
+            <group>PG_23032023</group>
+        </sharedTo>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <field>Address__c</field>
+            <operation>contains</operation>
+            <value>USA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Age__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>18</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>US_Auditors</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>US Auditors</label>
+        <sharedTo>
+            <group>PG_19032023</group>
+        </sharedTo>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <field>Address__c</field>
+            <operation>equals</operation>
+            <value>USA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Skill__c</field>
+            <operation>equals</operation>
+            <value>Salesforce</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>US_SM_records</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>US SM records</label>
+        <sharedTo>
+            <group>Share_with_Parker</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Address__c</field>
+            <operation>equals</operation>
+            <value>USA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>PG_19032023</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>PG 19032023</label>
+        <sharedTo>
+            <group>PG_19032023</group>
+        </sharedTo>
+        <sharedFrom>
+            <queue>Edureka_22_Queue</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

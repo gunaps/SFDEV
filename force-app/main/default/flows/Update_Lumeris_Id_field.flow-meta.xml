@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <assignments>
+        <name>Dummy_Account_Name</name>
+        <label>Dummy Account Name</label>
+        <locationX>176</locationX>
+        <locationY>431</locationY>
+        <assignmentItems>
+            <assignToReference>DummyAccountName</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Boston, USA</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Location</targetReference>
+        </connector>
+    </assignments>
+    <environments>Default</environments>
+    <interviewLabel>Update Lumeris Id field {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Update Lumeris Id field</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Location</name>
+        <label>Update Location</label>
+        <locationX>176</locationX>
+        <locationY>551</locationY>
+        <inputAssignments>
+            <field>Location__c</field>
+            <value>
+                <elementReference>DummyAccountName</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Lumeris_Id</name>
+        <label>Update Lumeris Id</label>
+        <locationX>176</locationX>
+        <locationY>311</locationY>
+        <connector>
+            <targetReference>Dummy_Account_Name</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Lumeris_Id__c</field>
+            <value>
+                <numberValue>2535625.0</numberValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Update_Lumeris_Id</targetReference>
+        </connector>
+        <object>Account</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+    <variables>
+        <name>DummyAccountName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue>ABC Company</stringValue>
+        </value>
+    </variables>
+</Flow>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Provider</fullName>
+    <active>true</active>
+    <label>Provider</label>
+    <picklistValues>
+        <picklist>Multiselect__c</picklist>
+        <values>
+            <fullName>Java</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PHP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Picklist__c</picklist>
+        <values>
+            <fullName>Boston</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Losangelos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michigan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New York</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

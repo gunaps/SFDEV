@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <label>RAM</label>
+            <name>ram</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Mother board</label>
+            <name>mother_board</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Hard disk</label>
+            <name>hard_disk</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Power Cable</label>
+            <name>power_cable</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>CPU</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

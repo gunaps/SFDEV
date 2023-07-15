@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Candidate_Passed__c</fullName>
+    <description>Students will be marked as passed when they get marks more than 40.</description>
+    <externalId>false</externalId>
+    <formula>Total_Marks__c &gt;=40</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>If students marks is &gt; 40 then they pass.</inlineHelpText>
+    <label>Candidate Passed</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

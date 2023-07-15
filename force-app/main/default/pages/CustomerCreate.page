@@ -1,0 +1,48 @@
+<!--
+1. VF programming is completely different from apex programming
+2. VF does not have any class or its objects
+3. It is simple front end based markup language, designed to view user Interface screens.
+4. In the markup language there are tags with open and close or which starts with tag and end with tag.
+5. Tags are denoted with angular brackets <guna> </guna>
+6. When you create a VF page Apex tag comes automatically, closes with /apex.
+7.Every tag starts and end, in between there is a body as well.
+8. Attributes are key values pairs
+9. Div= Divisional tag, can include style attrubutes.
+-->
+<apex:page sidebar="false" controller="customerCreateCtr">
+    <center>
+        <div style="color:blue; font-size:25px;font-weight:bold;margin-top: 10px; border:green 5px solid; padding:15px;background-color:orange">
+            Hey! welcome I am sure you will be going to enjoy this programming!
+        </div>
+        
+    </center>
+    
+    <center>
+    	<div style="color:orange; font-size:30px; font-weight:bold; margin-top: 10px; border: red 5px solid; padding:10px; background-color:grey">
+            Create Customers!
+            
+        </div>
+    </center>
+    <apex:pageMessages />
+
+    <div style="margin-top:15px; font-size:25px; font-weight:bold; margin-top: 5px; border: grey 5px solid; padding:10px; background-color: grey">
+        <apex:form >
+        <apex:pageBlock title="Create Customers">
+    		<apex:pageBlockSection title="Information">
+                <apex:inputfield value="{!customerRecord.Name}"/>
+                <apex:inputField value="{!customerRecord.Location__c}"/>
+                <apex:inputField value="{!customerRecord.Active__c}"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Additional Details">
+                <apex:inputField value="{!customerRecord.Customer_Number__c}"/>
+                <apex:inputField value="{!customerRecord.Annual_Revenue__c}"/>
+                <apex:inputField value="{!customerRecord.Email__c}"/>
+            </apex:pageBlockSection>
+            <apex:pageblockButtons >
+            	<apex:commandButton value="Save" action="{!createCustomer}"/>
+            </apex:pageblockButtons>
+    	</apex:pageBlock>
+        </apex:form>
+    </div>
+
+</apex:page>
